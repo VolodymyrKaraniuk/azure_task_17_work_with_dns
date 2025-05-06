@@ -101,4 +101,4 @@ New-AzPrivateDnsRecordSet `
     -ZoneName $privateDnsZoneName `
     -ResourceGroupName $resourceGroupName `
     -Ttl 3600 `
-    -Cname "todo.or.nottodo"
+    -Cname "webserver.or.nottodo"
